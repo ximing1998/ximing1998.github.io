@@ -9,8 +9,6 @@
     
     <title>
         
-            Archive: 2021 |
-        
         虚玄空幻
     </title>
     
@@ -66,7 +64,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/archives"
                             >
                                 ARCHIVES
@@ -94,7 +92,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/archives">ARCHIVES</a>
                 </li>
             
@@ -114,38 +112,109 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="archive-container ">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"></span>
+        </div>
+
         
-<div class="archive-list-container">
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">袭明</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;2021-04-14 11:20:37
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2021</span>
-                <span class="archive-year-post-count">[2]</span>
-            </div>
-            <ul class="article-list">
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2021/04/14/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E5%85%A5%E9%97%A8/"
-                        ></a>
-                        <span class="article-date">04-14</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2021/04/13/hello-world/"
-                        >Hello World</a>
-                        <span class="article-date">04-13</span>
-                    </li>
-                
-            </ul>
-        </section>
+    
+
+    
+    
+    
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h1 id="我的博客搭建"><a href="#我的博客搭建" class="headerlink" title="我的博客搭建"></a>我的博客搭建</h1><p>我参考的相关链接主要是下边第一个，第二个是朋友推荐的。</p>
+<ul>
+<li><p><a class="link"   target="_blank" rel="noopener" href="https://dp2px.com/" >https://dp2px.com/<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+<li><p><a class="link"   target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017986794" >超详细Hexo+Github Page搭建技术博客教程【持续更新】 - SegmentFault 思否<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+</ul>
+<hr>
+<p>Hexo 是一个快速、简洁且高效的博客框架。<a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/" >Hexo文档<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="Hexo的安装"><a href="#Hexo的安装" class="headerlink" title="Hexo的安装"></a>Hexo的安装</h2><p><strong>安装前提：</strong></p>
+<ol>
+<li>安装Node.js</li>
+<li>安装Git</li>
+</ol>
+<p><strong>Hexo安装：</strong></p>
+<ul>
+<li>第一步你需要创建一个文件夹来存放你博客的内容；在该文件夹下，右键点击Git Bash Here;</li>
+</ul>
+<p><img src="%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E5%85%A5%E9%97%A8.assets/image-20210413113028351.png" alt="image-20210413113028351"></p>
+<ul>
+<li>输入下边的命令来安装hexo和查看hexo的版本信息</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli  #安装代码</span><br><span class="line">$ hexo version #查看安装版本</span><br></pre></td></tr></table></figure>
+
+<p><img src="%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E5%85%A5%E9%97%A8.assets/image-20210413113422988.png" alt="image-20210413113422988"></p>
+<ul>
+<li>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>hexo server命令启动网站</li>
+</ul>
+<p><img src="%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E5%85%A5%E9%97%A8.assets/image-20210413122329245.png" alt="image-20210413122329245"></p>
+
+        </div>
+
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2021/04/13/hello-world/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">Hello World</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
     </div>
 </div>
+
 
                 
             </div>
@@ -173,6 +242,19 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
